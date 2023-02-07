@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="cucumber-core-7.9.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/cucumber-core-7.9.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/cucumber-expressions-16.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/cucumber-gherkin-7.9.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/cucumber-gherkin-messages-7.9.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/cucumber-java-7.9.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/cucumber-plugin-7.9.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/datatable-7.9.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/docstring-7.9.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/gherkin-24.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/html-formatter-20.1.0.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/messages-19.1.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/cucumber-java/tag-expressions-4.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

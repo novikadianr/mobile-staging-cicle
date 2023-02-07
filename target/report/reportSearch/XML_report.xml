@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="80.114">
+    <testcase classname="Search functional" name="TC10 - User successfully searching team" time="49.528">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+And user has company........................................................passed
+When user click tab search..................................................passed
+And user click team name....................................................passed
+Then user verify search by team result......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Search functional" name="TC11 - User successfully searching" time="30.016">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+And user has company........................................................passed
+When user click tab search..................................................passed
+And user input team name or menu............................................passed
+Then user verify search result..............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

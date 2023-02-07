@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="53.278">
+    <testcase classname="Blast Functionality" name="TC24 - User successfully create blast" time="52.218">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+And user has company........................................................passed
+And user already has team...................................................passed
+When user click menu blast..................................................passed
+And user click icon add blast...............................................passed
+And user input title blast..................................................passed
+And user input description..................................................passed
+And user click publish button...............................................passed
+Then user verify create blast result........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

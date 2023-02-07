@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="67.096">
+    <testcase classname="Login functional" name="TC1 - User login with google Account and skip button" time="25.771">
+        <system-out><![CDATA[Given user is on app........................................................passed
+And user click skip button..................................................passed
+When user click go to sign in button........................................passed
+And user click Sign in with Google Account button...........................passed
+And user click email........................................................passed
+Then user verify login result...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login functional" name="TC2 - User login with google Account and button yess" time="40.735">
+        <system-out><![CDATA[Given user is on app........................................................passed
+And user click yess button..................................................passed
+When user click go to sign in button........................................passed
+And user click Sign in with Google Account button...........................passed
+And user click email........................................................passed
+Then user verify login result...............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

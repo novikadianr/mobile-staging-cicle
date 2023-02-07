@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="111.228">
+    <testcase classname="Doc and File Functionality" name="TC32 - User successfully add new doc" time="48.632">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+And user has company........................................................passed
+And user already has team...................................................passed
+When user click docnfiles button............................................passed
+And user click icon add.....................................................passed
+And user click add new doc button...........................................passed
+And user input title........................................................passed
+And user input desc document................................................passed
+And user click button publis................................................passed
+Then user verify new doc result.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Doc and File Functionality" name="TC33 - User successfully create new folder" time="39.698">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+And user has company........................................................passed
+And user already has team...................................................passed
+When user click docnfiles button............................................passed
+And user click icon add.....................................................passed
+And user click create new folder button.....................................passed
+And user input name folder..................................................passed
+And user click create folder button.........................................passed
+Then user verify new folder result..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Doc and File Functionality" name="TC34 - User successfully upload files" time="22.275">
+        <failure message="The element 'By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout' does not exist in DOM anymore&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: '192.168.1.4', ip: 'fe80:0:0:0:1489:d2cf:4876:358%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '19.0.1'&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/novikadianrenanda/Do..., appPackage: staging.cicle, databaseEnabled: false, desired: {app: /Users/novikadianrenanda/Do..., deviceName: Pixel 3a XL API 33, platformName: android, platformVersion: 11, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 60, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2040, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: da6d0ef7-b091-4c90-9a1a-8544d8707caa" type="org.openqa.selenium.StaleElementReferenceException"><![CDATA[Given user is on homepages..................................................failed
+And user has company........................................................skipped
+And user already has team...................................................skipped
+When user click docnfiles button............................................skipped
+And user click icon add.....................................................skipped
+And user click upload file button...........................................skipped
+And user upload file doc....................................................skipped
+Then user verify file result................................................skipped
+
+StackTrace:
+org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '192.168.1.4', ip: 'fe80:0:0:0:1489:d2cf:4876:358%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.1', java.version: '19.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/novikadianrenanda/Do..., appPackage: staging.cicle, databaseEnabled: false, desired: {app: /Users/novikadianrenanda/Do..., deviceName: Pixel 3a XL API 33, platformName: android, platformVersion: 11, udid: emulator-5554}, deviceApiLevel: 33, deviceManufacturer: Google, deviceModel: sdk_gphone64_arm64, deviceName: emulator-5554, deviceScreenDensity: 400, deviceScreenSize: 1080x2160, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 60, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2040, left: 0, top: 60, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: da6d0ef7-b091-4c90-9a1a-8544d8707caa
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+	at stepDefinition.home.user_is_on_homepages(home.java:29)
+	at ✽.user is on homepages(file:///Users/novikadianrenanda/IdeaProjects/android-testing-cicle/src/test/resources/features/f10-docnfile.feature:26)
+]]></failure>
+    </testcase>
+</testsuite>

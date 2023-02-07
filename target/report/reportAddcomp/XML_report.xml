@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="112.385">
+    <testcase classname="Add new Company" name="TC3 - User successfully add new company" time="33.239">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+When user click create new company button...................................passed
+And user input company name.................................................passed
+And user input company description..........................................passed
+And user click create button................................................passed
+Then user verify add company result.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add new Company" name="TC4 - User failed login with null name" time="29.05">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+When user click create new company button...................................passed
+And user input company description..........................................passed
+And user click create button................................................passed
+Then user see error message.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add new Company" name="TC5 - User failed login with null description" time="25.658">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+When user click create new company button...................................passed
+And user input company name.................................................passed
+And user click create button................................................passed
+Then user see error message.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add new Company" name="TC6 - User failed login with null field" time="23.827">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+When user click create new company button...................................passed
+And user click create button................................................passed
+Then user see error message.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

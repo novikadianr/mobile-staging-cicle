@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="153.892">
+    <testcase classname="Add new Team" name="TC17 - User successfully add new team" time="58.15">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+And user has company........................................................passed
+When user click iconplus....................................................passed
+And user click add new team.................................................passed
+And user input name team....................................................passed
+And user input description team.............................................passed
+And user click create team button...........................................passed
+Then user verify new team result............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add new Team" name="TC18 - User failed add new team with null name" time="39.794">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+And user has company........................................................passed
+When user click iconplus....................................................passed
+And user click add new team.................................................passed
+And user input description team.............................................passed
+And user click create team button...........................................passed
+Then user verify null name result...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add new Team" name="TC19 - User successfully add new team with null description" time="54.867">
+        <system-out><![CDATA[Given user is on homepages..................................................passed
+And user has company........................................................passed
+When user click iconplus....................................................passed
+And user click add new team.................................................passed
+And user input name team....................................................passed
+And user click create team button...........................................passed
+Then user verify null description result....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
